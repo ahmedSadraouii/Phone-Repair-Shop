@@ -9,7 +9,7 @@ import { ModeToggle } from "@/components/ModeToggle";
 export function Header() {
   return (
     <header className="animate-slide bg-background h-12 p-2 border-b sticky top-0 z-20">
-      <div className="flex h-8 items-center justify-between w-full">
+      <div className="flex h-8 items-center justify-between w-full py-4">
         <div className="flex items-center gap-2">
           <NavButton href="/home" label="Home" icon={HomeIcon} />
 
@@ -19,7 +19,7 @@ export function Header() {
             title="Home"
           >
             <h1 className="hidden sm:block text-xl font-bold m-0 mt-1">
-              Computer Repair Shop
+              Borgi Phones
             </h1>
           </Link>
         </div>
